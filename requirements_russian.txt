@@ -1,0 +1,33 @@
+# Основные зависимости для российского торгового фреймворка
+typing-extensions>=4.14.0
+langchain-openai>=0.3.23
+langchain-experimental>=0.3.4
+langchain-anthropic>=0.3.15
+langchain-google-genai>=2.1.5
+langgraph>=0.4.8
+pandas>=2.3.0
+requests>=2.32.4
+setuptools>=80.9.0
+tqdm>=4.67.1
+pytz>=2025.2
+
+# CLI и интерфейс
+rich>=14.0.0
+questionary>=2.1.0
+typer>=0.9.0
+
+# Парсинг и обработка данных
+beautifulsoup4>=4.12.0
+feedparser>=6.0.11
+parsel>=1.10.0
+
+# Google AI
+google-generativeai>=0.8.0
+
+# Дополнительные утилиты
+python-dateutil>=2.8.2
+tenacity>=8.2.0
+
+# Опциональные зависимости для расширенного функционала
+chromadb>=1.0.12  # Для памяти агентов
+redis>=6.2.0      # Для кэширования (опционально)
